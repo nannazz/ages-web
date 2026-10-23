@@ -25098,7 +25098,7 @@ Wj(a,b){var s=0,r=A.S(t.H),q,p,o,n,m
 var $async$Wj=A.T(function(c,d){if(c===1)return A.P(d,r)
 for(;;)switch(s){case 0:n=t.N
 s=2
-return A.O(A.az5(A.fn("https://ages-ji88.onrender.com/auth/login"),B.bJ.Gd(A.as(["password",b,"device",a],n,n),null),B.IA).zT(B.Dh),$async$Wj)
+return A.O(A.az5(A.fn("https://ages-api.onrender.com/auth/login"),B.bJ.Gd(A.as(["password",b,"device",a],n,n),null),B.IA).zT(B.Dh),$async$Wj)
 case 2:m=d
 if(m.b!==200)throw A.i(A.bZ(A.asv(m,"AGES login failed.")))
 q=null
@@ -25117,7 +25117,7 @@ for(;;)switch(s){case 0:i=B.c.hq(a)
 if(i.length===0)throw A.i(A.bZ("Please enter a message."))
 n=$.vf
 if(!(n!=null&&n.length!==0))throw A.i(A.bZ("Please log in to AGES first."))
-n=A.fn("https://ages-ji88.onrender.com/chat")
+n=A.fn("https://ages-api.onrender.com/chat")
 m=$.vf
 if(!(m!=null&&m.length!==0))A.a1(A.bZ("Please log in to AGES first."))
 l=t.N
